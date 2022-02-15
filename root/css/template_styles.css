@@ -1818,7 +1818,7 @@ display:inline-block;font-size:1em;position:relative;color:#222222;height:104px;
 .menu-row.middle-block .mega-menu table td.catalog .wrap > a:before, .menu-row.middle-block .mega-menu table td.dropdown .wrap > a:after{content:"";position:absolute;display:block;}
 .menu-row.middle-block .mega-menu table td.catalog .wrap > a:before{display:none;top:23px;left:20px;background:url('../fonts/Catalog_menu.svg') 0px 0px no-repeat;width:15px;height:12px;}
 .menu-row.middle-block.bglight .mega-menu table td.catalog .wrap > a:before{background:url('../fonts/Catalog_menu_black.svg') 0px 0px no-repeat;top:22px;}
-.menu-row.middle-block .mega-menu table td.dropdown .wrap > a:not(.more-items):after{top:21px;right:20px;font-family: FontAwesome;content: "\f107";font-size: 14px;width:15px;height:12px;text-align:center;}
+/* .menu-row.middle-block .mega-menu table td.dropdown .wrap > a:not(.more-items):after{top:21px;right:20px;font-family: FontAwesome;content: "\f107";font-size: 14px;width:15px;height:12px;text-align:center;} */
 .menu-row.middle-block .mega-menu table td.dropdown .wrap > a:not(.more-items){padding-right:50px;}
 
 .menu-row.middle-block .mega-menu table td.icon .wrap > a{padding-left:50px;padding-right:40px;}
