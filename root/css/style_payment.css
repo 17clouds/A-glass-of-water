@@ -1,0 +1,117 @@
+
+
+/* PAYMENT CONTENT */
+
+.pay_content {
+   display: flex;
+   flex-direction: column;
+}
+.payment_first_floor{
+   display: flex;
+}
+.payment_second_floor{
+   width: 1380px;
+   height: 417px;
+   background-color: #26c9ff;
+}
+
+/* NAV SIDE BAR */
+
+.blue_side_pay{
+   width: 36px;
+   height: 255px;
+   background-color: #00c5ff;
+}
+.nav_catalog{
+   width: 229px;
+   height: 255px;
+   background-color: #f8f8f9;
+}
+.main_cat_pay{
+   padding-bottom: 20px;
+}
+.nav_first_floor{
+   width: 265px;
+   display: flex;
+}
+.pay_sub_content{
+   width: 1380px;
+   height: 1709px;
+   background-color: #ffffff;
+}
+.ad {
+   width: 264px;
+   height: 727px;
+   background-color: #b9b9b9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   font-family: 'Gotham Pro';
+   font-size: 62.4px;
+   line-height: 70px;
+   font-weight: 700;
+   color: #3d3d3d;
+   text-transform: uppercase;
+}
+.ad p {
+   transform: rotate(-90deg);
+}
+
+/* PAYMENT CONTENT */
+
+.pay_main_div {
+   width: 1115px;
+   background-color: #ffffff;
+}
+.pay_main_content{
+   height: 720px;
+   width: 885px;
+   margin-top: 85px;
+   margin-left: 60px;
+}
+.pay_title{
+   font-family: 'Gotham Pro';
+   font-size: 48.6px;
+   line-height: 54px;
+   font-weight: 700;
+   color: #3d3d3d;
+   margin-bottom: 154px;
+}
+
+/* PAYMENT METHODS */
+.pay_btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pay_btns button {
+   width: 882px;
+   height: 194px;
+   background-color: #26c9ff;
+   border-radius: 60px;
+   border: none;
+}
+.pay_btns p {
+   font-family: 'Gotham Pro';
+   font-size: 35.7px;
+   line-height: 32px;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+/* PAYMENT SECOND FLOOR */
+
+.payment_second_floor {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.payment_second_floor p {
+   font-family: 'Gotham Pro';
+   font-size: 48px;
+   line-height: 53px;
+   font-weight: 700;
+   color: #3d3d3d;
+}

@@ -1,0 +1,166 @@
+/* CONTACTS CONTENT */
+
+.contacts_content {
+}
+
+/* CONTACTS FIRST FLOOR */
+
+.first_floor_cont {
+   display: flex;
+   align-items: center;
+   width: 1380px;
+   height: 161px;
+   background-color: #faf8f8;
+}
+.first_floor_cont p {
+   padding-left: 50px;
+   font-family: "Gotham Pro";
+   font-size: 52.7px;
+   line-height: 59px;
+   font-weight: 700;
+   color: #3d3d3d;
+}
+
+/* SECOND AND THIRD FLOORS */
+
+.second_and_third_floors {
+   padding-top: 40px;
+   width: 1380px;
+   height: 1451px;
+   background-color: #ffffff;
+}
+
+/* CONTACTS SECOND FLOOR */
+
+.contacts_second_floor {
+   display: flex;
+   flex-direction: row;
+}
+.contacts_and_adress {
+   display: flex;
+   flex-direction: column;
+}
+.map {
+   margin-left: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 736px;
+   height: 677px;
+   background-color: #b9b9b9;
+}
+.map p {
+   font-family: "Gotham Pro";
+   font-size: 103.9px;
+   line-height: 116px;
+   font-weight: 700;
+   color: #3d3d3d;
+}
+.img_cont_adress {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 71px;
+   height: 70px;
+   border: 5px solid #26c9ff;
+   border-radius: 20px;
+   background-color: #26c9ff;
+}
+.adress_text {
+   margin-left: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.adress_title {
+   font-family: "Gotham Pro";
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 700;
+   color: #26c9ff;
+}
+.adress_title p {
+   margin-bottom: 0px;
+}
+.adress_sub_title {
+   font-family: "Gotham Pro";
+   font-size: 19px;
+   line-height: 21px;
+   font-weight: 300;
+   color: #26c9ff;
+}
+.adress_tile {
+   display: flex;
+   flex-direction: row;
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+.adress_requisites {
+   display: flex;
+   flex-direction: column;
+   margin-left: 45px;
+}
+.adr_req_title {
+   font-family: "Gotham Pro";
+   font-size: 24px;
+   line-height: 0px;
+   font-weight: 400;
+   color: #26c9ff;
+}
+.adr_req_text {
+   font-family: "Gotham Pro";
+   font-size: 19px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #26c9ff;
+}
+/* CONTACTS THIRD FLOOR */
+
+.contacts_third_floor {
+   margin-top: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.third_floor_content {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 1160px;
+   height: 500px;
+   border: 5px solid #26c9ff;
+   border-radius: 20px;
+   background-color: #26c9ff;
+}
+.third_floor_content input {
+   width: 1013px;
+   height: 45px;
+   border-radius: 20px;
+}
+.third_floor_content label {
+   font-family: "Gotham Pro";
+   font-size: 24px;
+   line-height: 27px;
+   font-weight: 700;
+   color: #ffffff;
+}
+.third_floor_cont_btn button {
+   margin-top: 40px;
+
+   border: none;
+   align-items: center;
+   width: 296px;
+   height: 48px;
+   background-color: #ffffff;
+   border-radius: 20px;
+
+   font-family: "Gotham Pro";
+   font-size: 25.7px;
+   line-height: 28px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #26c9ff;
+}
+/* CONTACTS FOURTH FLOOR */

@@ -1,0 +1,309 @@
+/* CATALOG DUSH STEK */
+
+.mine_div {
+   display: flex;
+   flex-direction: row;
+}
+
+/* CATALOG DUSH STEK NAV */
+.bg {
+   background-color: white;
+}
+.nav_side_bar {
+   display: flex;
+   flex-direction: row;
+}
+.blue_side {
+   width: 29px;
+   height: 1395px;
+   background-color: #00c5ff;
+}
+.nav_catalog {
+   width: 190px;
+   height: 1395px;
+   background-color: #f8f8f9;
+}
+ul.nav_cat_list {
+   margin-top: 50px;
+}
+
+.main_cat {
+   font-family: "Gotham Pro";
+   font-size: 11.7px;
+   line-height: 10px;
+   font-weight: 800;
+   letter-spacing: 0.08em;
+   color: #3d3d3d;
+   display: flex;
+   align-items: center;
+}
+.main_cat p {
+   margin-bottom: 0px;
+   padding-left: 10px;
+   width: 155px;
+   
+}
+.main_cat a {
+   color: #000000;
+}
+.main_cat a :hover {
+   color: #00c5ff;
+}
+.sub_cat {
+   margin-top: 10px;
+   padding-left: 0px;
+   margin-left: 50px;
+   font-family: "Gotham Pro";
+   font-size: 11.6px;
+   line-height: 9px;
+   font-weight: 300;
+   letter-spacing: 0.08em;
+   color: #3d3d3d;
+   display: flex;
+   align-items: center;
+}
+.sub_cat p {
+   margin-bottom: 0px;
+   padding-left: 10px;
+   width: 100px;
+}
+.sub_cat a {
+   color: rgb(151, 151, 151);
+}
+.sub_cat a :hover {
+   color: #00c5ff;
+}
+
+/* CATALOG DUSH STEK TILES */
+
+.tiles_div {
+   width: 1090px;
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 6px;
+   column-gap: 17px;
+   margin-top: 58px;
+   margin-left: 40px;
+}
+.tile_cat {
+   width: 350px;
+   height: 565px;
+   background-color: #f0f0f0;
+   box-shadow: 13px 10px 25px 13px rgba(0, 0, 0, 0.73);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.tile_cat img {
+   width: 329px;
+   height: 362px;
+   margin-top: 10px;
+}
+.text_tile {
+   font-family: "Gotham Pro";
+   font-size: 10px;
+   line-height: 10px;
+   font-weight: 300;
+   letter-spacing: 0.02em;
+   color: #3d3d3d;
+   padding-top: 10px;
+   width: 305px;
+}
+.price_tile {
+   font-family: "Gotham Pro";
+   font-size: 52.2px;
+   line-height: 43px;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.73);
+   color: #3d3d3d;
+}
+.btn_tile a button {
+   width: 151px;
+   height: 42px;
+   background-color: #ffffff;
+   border: none;
+   border-radius: 20.6px;
+   font-family: "Gotham Pro";
+   font-size: 18.2px;
+   line-height: 15px;
+   font-weight: 700;
+   letter-spacing: 0.04em;
+   color: #b8b8b8;
+   margin-bottom: 20px;
+}
+.btn_tile a button:hover {
+   color: #ffffff;
+   background-color: rgb(163, 221, 255);
+   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.2);
+}
+
+/* TILES BTN */
+
+.tiles_btns {
+   width: 1160px;
+}
+.tiles_btn {
+   font-family: "Gotham Pro";
+   font-size: 19.2px;
+   line-height: 19px;
+   font-weight: 300;
+   letter-spacing: 0.02em;
+   color: #000000;
+   margin-top: 52px;
+}
+.tiles_btn button {
+   width: 176px;
+   height: 48px;
+   border: 2px solid #dadadc;
+   border-radius: 23.5px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+/* POPUP */
+
+.popup_cat {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top: 0;
+   left: 0;
+   z-index: 3000;
+   opacity: 0;
+   visibility: hidden;
+   overflow-y: auto;
+   overflow-x: hidden;
+   transition: all 0.8s ease 0s; 
+}
+.popup_cat:target{
+   opacity: 1;
+   visibility: visible;
+}
+.popup_body {
+   min-height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px 10px;
+}
+
+.popup_content {
+   
+   color: black;
+   min-width: 826px;
+   min-height: 670px;
+   position: relative;
+   transition: all 0.8s ease 0s;
+   opacity: 1;
+   transform: translate(0px, -100%);
+}
+.popup_cat:target .popup_content {
+   transform: translate(0px, 0px);
+   opacity: 1;
+}
+.popup_title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 826px;
+   height: 108px;
+   background-color: #26c9ff;
+   font-family: 'Gotham Pro';
+   font-size: 50.4px;
+   line-height: 50px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   color: #ffffff;
+   dis
+}
+.popup_close{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+}
+.popup_area {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+.popup_undertitle_content{
+   background-image: url(/root/assets/png/bg_popup.png);
+   background-repeat: no-repeat;
+   height: 560px;
+}
+.popup_undertitle_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center
+}
+.popup_form_login label, .popup_form_password label{
+   font-family: 'Gotham Pro';
+   font-size: 32.4px;
+   line-height: 32px;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   color: #484848;
+}
+.popup_form_login{
+   margin-top: 45px;
+}
+input#USER_LOGIN_POPUP, #USER_PASSWORD_POPUP {
+   border: none;
+   border-radius: 0%;
+   width: 676px;
+   height: 87px;
+   background-color: #f4f4f4;
+   box-shadow: 2px 11px 51px 22px rgba(0,0,0,0.5);
+}
+.popup_forgot{
+   font-family: 'Gotham Pro';
+   font-size: 18.6px;
+   line-height: 18px;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   color: #484848;
+}
+.popup_remember_password label {
+   font-family: 'Gotham Pro';
+   font-size: 18.6px;
+   line-height: 18px;
+   font-weight: 300;
+   letter-spacing: 0.1em;
+   color: #484848;
+}
+.popup_remember_password{
+   width: 670px;
+
+}
+.popup_btn_log button{
+   width: 228px;
+   height: 59px;
+   background-color: #26c9ff;
+   border-radius: 20px;
+}
+.popup_btn_log span {
+   font-family: 'Gotham Pro';
+   font-size: 25.9px;
+   line-height: 25px;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   color: #ffffff;
+}
+.popup_reg a {
+   font-family: 'Gotham Pro';
+   font-size: 20.1px;
+   line-height: 20px;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   color: #484848;
+}

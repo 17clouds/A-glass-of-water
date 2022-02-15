@@ -1,0 +1,35 @@
+.left-accordion-front.bl-fixed {
+    /* position:fixed;
+    top:80px; */
+}
+.left-accordion-front.bott-fixed {
+    bottom:100px;
+    position:absolute;
+}
+.left-accordion-front.item-views.accordion  .item{
+    padding-bottom:0;
+}
+.left-accordion-front .accordion-head {
+    padding: 20px 80px 20px 35px;
+}
+.left-accordion-front .accordion-head .fa {
+    top:20px;
+}
+.left-accordion-front .panel-collapse .accordion-body {
+    padding: 0px 40px 25px 45px;
+}
+.left-accordion-front .item:hover .title a {
+    color:#222222 !important;
+}
+.left-accordion-front .item .title a:hover {
+    color: #c50026 !important;
+}
+.left-accordion-front .btn {
+    display:block;
+    margin-top:20px;
+    font-size: 1.067em;
+    padding: 12px 19px 13px;
+}
+.acc-scroll {
+    overflow-y: auto;
+}
